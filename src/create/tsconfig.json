@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": ["create.ts"],
+  "compilerOptions": {
+    "outDir": "../../lib/create",
+    "rootDir": "."
+  }
+}

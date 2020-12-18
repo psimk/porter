@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": ["porter.ts"],
+  "references": [{ "path": "../build" }, { "path": "../create" }],
+  "compilerOptions": {
+    "outDir": "../../lib/porter",
+    "rootDir": "."
+  }
+}
