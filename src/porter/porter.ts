@@ -6,13 +6,13 @@ const { input: CLI_INPUT, flags: CLI_FLAGS } = meow(
   `
   Usage:
     $ porter create <variant>   Creates a new porter project
-	$ porter build              Runs example config file to generate default results (will create a ./screenshot folder)
+	  $ porter build              Runs example config file to generate default results (will create a ./screenshot folder)
 
   Options:
     -c, --config                Pass configuration file location default is root
 
     -h, --help                  Display help
-	-v, --version               Display version
+   	-v, --version               Display version
 
   Examples:
     $ porter create react -c ../porter.json
