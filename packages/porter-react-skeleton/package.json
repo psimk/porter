@@ -1,0 +1,59 @@
+{
+  "name": "@porterts/react-skeleton",
+  "version": "0.0.1",
+  "author": "Paul <p.simkevi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psimk/porter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psimk/porter.git",
+    "directory": "packages/react-skeleton"
+  },
+  "scripts": {
+    "check-types": "tsc --project tsconfig.json --noEmit --noUnusedLocals",
+    "dev": "yarn --silent ts-node build-tools/scripts/dev-server",
+    "fix": "npm-run-all fix:*",
+    "fix:eslint": "npm run lint:eslint -- --fix",
+    "fix:prettier": "prettier \"**/*.{js,jsx,ts,tsx,scss}\" --write --loglevel warn",
+    "fix:stylelint": "npm run lint:stylelint -- --fix",
+    "lint": "npm-run-all lint:*",
+    "lint:eslint": "eslint . --ext .ts,.tsx --cache --cache-location node_modules/.cache/.eslintcache",
+    "lint:stylelint": "stylelint \"{components,website}/**/*.{ts,tsx}\" --cache --cache-location \"node_modules/.cache/.stylelintcache/\""
+  },
+  "type": "module",
+  "dependencies": {
+    "@mediamonks/eslint-config": "^1.1.3",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@vue/cli-plugin-typescript": "^4.5.10",
+    "@vue/cli-service": "^4.5.10",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.6.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-import-resolver-webpack": "^0.12.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "seng-generator": "^0.9.0",
+    "sort-package-json": "^1.44.0",
+    "typescript": "^4.1.2",
+    "web-vitals": "^0.2.4",
+    "webpack": "^4.46.0"
+  }
+}

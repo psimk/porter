@@ -1,0 +1,19 @@
+{
+  "name": "@examples/react",
+  "scripts": {
+    "build": "porter build react",
+    "dev": "porter dev react",
+    "serve": "porter serve react"
+  },
+  "resolutions": {
+    "webpack": "^4.46.0"
+  },
+  "dependencies": {
+    "@porterts/cli": "workspace:packages/porter-cli",
+    "@porterts/react-skeleton": "workspace:packages/porter-react-skeleton",
+    "@porterts/react-tools": "workspace:packages/porter-react-tools"
+  },
+  "devDependencies": {
+    "eslint": "7.6.0"
+  }
+}

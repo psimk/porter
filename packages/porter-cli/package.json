@@ -1,0 +1,35 @@
+{
+  "name": "@porterts/cli",
+  "version": "0.0.1",
+  "description": "💁 the build system to carry your projects",
+  "license": "MIT",
+  "author": "Paul <p.simkevi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psimk/porter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psimk/porter.git",
+    "directory": "packages/porter-cli"
+  },
+  "bin": {
+    "porter": "./bin/porter"
+  },
+  "scripts": {
+    "build": "rm -rf lib ; tsc -b"
+  },
+  "dependencies": {
+    "@types/mkdirp": "^1.0.1",
+    "@types/tar": "^4.0.4",
+    "@types/validate-npm-package-name": "^3.0.2",
+    "commander": "^7.0.0",
+    "kleur": "^4.1.3",
+    "mkdirp": "^1.0.4",
+    "tar": "^6.1.0",
+    "ts-node": "^9.1.1",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
