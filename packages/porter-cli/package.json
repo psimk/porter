@@ -1,5 +1,5 @@
 {
-  "name": "@porterts/cli",
+  "name": "@psimk/porter-cli",
   "version": "0.0.1",
   "description": "💁 the build system to carry your projects",
   "license": "MIT",

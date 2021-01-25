@@ -1,5 +1,5 @@
-import webpackConfig from "@porterts/web-tools/webpack.config";
-import webBabelConfig from "@porterts/web-tools/babel.config";
+import webpackConfig from "@psimk/porter-web-tools/webpack.config";
+import webBabelConfig from "@psimk/porter-web-tools/babel.config";
 import merge from "webpack-merge";
 import ReactRefreshWebpackPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import type { Plugin } from "webpack";

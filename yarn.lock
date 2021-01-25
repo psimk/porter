@@ -1245,9 +1245,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@examples/react@workspace:examples/react"
   dependencies:
-    "@porterts/cli": "workspace:packages/porter-cli"
-    "@porterts/react-skeleton": "workspace:packages/porter-react-skeleton"
-    "@porterts/react-tools": "workspace:packages/porter-react-tools"
+    "@psimk/porter-cli": "workspace:packages/porter-cli"
+    "@psimk/porter-react-skeleton": "workspace:packages/porter-react-skeleton"
+    "@psimk/porter-react-tools": "workspace:packages/porter-react-tools"
     eslint: 7.6.0
   languageName: unknown
   linkType: soft
@@ -1432,9 +1432,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@porterts/cli@workspace:packages/porter-cli":
+"@psimk/porter-cli@workspace:packages/porter-cli":
   version: 0.0.0-use.local
-  resolution: "@porterts/cli@workspace:packages/porter-cli"
+  resolution: "@psimk/porter-cli@workspace:packages/porter-cli"
   dependencies:
     "@types/mkdirp": ^1.0.1
     "@types/tar": ^4.0.4
@@ -1451,9 +1451,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@porterts/react-skeleton@workspace:packages/porter-react-skeleton":
+"@psimk/porter-react-skeleton@workspace:packages/porter-react-skeleton":
   version: 0.0.0-use.local
-  resolution: "@porterts/react-skeleton@workspace:packages/porter-react-skeleton"
+  resolution: "@psimk/porter-react-skeleton@workspace:packages/porter-react-skeleton"
   dependencies:
     "@mediamonks/eslint-config": ^1.1.3
     "@types/react": ^17.0.0
@@ -1490,13 +1490,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@porterts/react-tools@workspace:packages/porter-react-tools":
+"@psimk/porter-react-tools@workspace:packages/porter-react-tools":
   version: 0.0.0-use.local
-  resolution: "@porterts/react-tools@workspace:packages/porter-react-tools"
+  resolution: "@psimk/porter-react-tools@workspace:packages/porter-react-tools"
   dependencies:
     "@babel/preset-react": ^7.12.10
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
-    "@porterts/web-tools": "workspace:packages/porter-web-tools"
+    "@psimk/porter-web-tools": "workspace:packages/porter-web-tools"
     babel-plugin-named-asset-import: ^0.3.7
     babel-plugin-styled-components: ^1.12.0
     react-refresh: ^0.9.0
@@ -1508,9 +1508,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@porterts/web-tools@workspace:packages/porter-web-tools":
+"@psimk/porter-web-tools@workspace:packages/porter-web-tools":
   version: 0.0.0-use.local
-  resolution: "@porterts/web-tools@workspace:packages/porter-web-tools"
+  resolution: "@psimk/porter-web-tools@workspace:packages/porter-web-tools"
   dependencies:
     "@babel/core": ^7.12.10
     "@babel/preset-env": ^7.12.11

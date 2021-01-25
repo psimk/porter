@@ -16,7 +16,7 @@ const appDirectory = fs.realpathSync(process.cwd());
 const resolveUser = (relativePath: string) => path.resolve(appDirectory, relativePath);
 
 const isPorterDependency = (dependency: string) =>
-  (dependency.startsWith("@porterts") || dependency.startsWith("porter")) &&
+  (dependency.startsWith("@psimk") || dependency.startsWith("porter")) &&
   (dependency.endsWith("skeleton") || dependency.endsWith("tools"));
 
 // const parsePorterDependencyType = (dependency: string): "skeleton" | "tools" | null =>

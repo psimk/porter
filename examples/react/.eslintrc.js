@@ -5,7 +5,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'import/no-extraneous-dependencies': [
       'error',
-      { packageDir: '../../../node_modules/@porterts/react-skeleton' },
+      { packageDir: '../../../node_modules/@psimk/porter-react-skeleton' },
     ],
   },
 };

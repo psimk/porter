@@ -9,9 +9,9 @@
     "webpack": "^4.46.0"
   },
   "dependencies": {
-    "@porterts/cli": "workspace:packages/porter-cli",
-    "@porterts/react-skeleton": "workspace:packages/porter-react-skeleton",
-    "@porterts/react-tools": "workspace:packages/porter-react-tools"
+    "@psimk/porter-cli": "workspace:packages/porter-cli",
+    "@psimk/porter-react-skeleton": "workspace:packages/porter-react-skeleton",
+    "@psimk/porter-react-tools": "workspace:packages/porter-react-tools"
   },
   "devDependencies": {
     "eslint": "7.6.0"
